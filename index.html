@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="p5.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Blockout</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div id="menu">
+    <label for="width">Width:</label>
+    <input type="number" id="width" name="width" value="5">
+    <label for="height">Height:</label>
+    <input type="number" id="height" name="height" value="3">
+    <label for="maxBlockSize">Max Blocksize:</label>
+    <input type="number" id="maxBlocksize" name="maxBlocksize" value="80">
+    <label for="mode">Start Preset:</label>
+    <select id="mode" name="mode">
+      <option value="allOff">All Off</option>
+      <option value="allOn">All On</option>
+      <option value="alternating">Alternating</option>
+      <option value="random">Random</option>
+    </select>
+    <input type="button" id="start" value="Start" onclick="startGame()">
+  </div>
+  <canvas id="canvas"></canvas>
+  <script src="script.js"></script>
+</body>
+
+</html>
