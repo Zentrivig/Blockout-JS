@@ -1,5 +1,5 @@
 # Blockout-JS
-A fun browser-based puzzle game
+A fun browser-based puzzle game. Current state: https://zentrivig.github.io/Blockout-JS/
 
 Whenever you click on a tile, that tile each tile adjacent to it will toggle their color
 
